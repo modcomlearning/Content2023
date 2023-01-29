@@ -1,0 +1,86 @@
+/* Text Properties */
+h1 {
+    /* Recap color and background bvefor introducing new properties */
+    color: blanchedalmond;
+    background-color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-shadow: 2px 1px;
+}
+/* Style the list using Tag/Element selector */
+ol{
+     color: white;
+     background-color: fuchsia;
+     list-style-type: lower-roman;
+}
+li{
+     background-color: burlywood;
+}
+
+/* ======CSS IDS ======== */
+/* BOX Model */
+/* At this point introduce CSS Ids */
+/* Give any 2 paragraphs an ID an do below */
+/* Explain What is a CSS ID, Why do we need it */
+/* Let the students observe that only paragraph with ID 1 changes */
+#paragraph1{
+    color: rgb(186, 158, 148);
+    /* Add more properties */
+    background-color: bisque;
+    /* Padding  - Explain padding effect on paragraph as they observe*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* Padding short hand - Explain it can be done like below*/
+    /* padding: 10px 10px 10px 10px; */
+}
+
+
+#paragraph2 {
+    /* Let them observe only paragraph 2 changes */
+    color: blue;
+    background-color: aquamarine;
+    /* Margins */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    /* Margin short hand */
+    /* margin: 10px 10px 10px 10px; */
+}
+
+
+/* From above paragraphs let them observe differene between padding and margin */
+/* STyle your Division */
+#division1 {
+    color: orange;
+    background-color: cornflowerblue;
+    /* Borders */
+    /* All around */
+    /* border: solid 2px red; */
+    /* Border Bottom/Top/Left/Right */
+    border-bottom: solid 2px red;
+    width: 800px;
+    height: 300px;
+}
+
+/* Styling Lists */
+/* Let the student that you can use Ids selector or Element/Tag selector */
+/* Below we style Links using elment selector*/
+/* Here we will combine several properties we learned earlier */
+a {
+    color: white;    
+    background-color: #1ebba3;    
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #099983;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #767b7a; 
+}

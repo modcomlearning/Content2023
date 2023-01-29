@@ -1,0 +1,32 @@
+#black {
+    background-color: black;
+    height: 150px;
+}
+
+#white1{
+    background-color: white;
+    height: 10px;
+}
+
+#white2{
+    background-color: white;
+    height: 10px;
+}
+
+#red{
+    background-color: red;
+    height: 150px;
+}
+
+#green{
+    background-color: green;
+    height: 150px;
+}
+
+img{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    
+    
+}
